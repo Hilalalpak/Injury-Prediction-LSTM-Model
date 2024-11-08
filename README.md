@@ -64,36 +64,6 @@ The project utilizes three main datasets collected between May 2016 and April 20
 - scikit-learn
 ```
 
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/sports-injury-analysis.git
-cd sports-injury-analysis
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-### Usage
-
-1. Data Preparation:
-```python
-python src/data_preparation.py --input_path /path/to/data
-```
-
-2. Model Training:
-```python
-python src/train_model.py --config config/model_config.yaml
-```
-
-3. Risk Prediction:
-```python
-python src/predict.py --athlete_id <ID>
-```
-
 ## 📊 Results
 
 The model demonstrates varying performance across different athletes:
@@ -107,18 +77,6 @@ The model demonstrates varying performance across different athletes:
 2. Individual athlete responses vary considerably
 3. Hip mobility shows positive correlation with injury prevention
 4. Rest periods are crucial for risk management
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## 👥 Authors
 
